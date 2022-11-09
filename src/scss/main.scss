@@ -1,0 +1,69 @@
+$primary: #27474e;
+$secondary: #413c58;
+$success: #0b6e4f;
+$danger: #ff6b6b;
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body {
+  font-family: Inter, sans-serif;
+  color: #1c1d21;
+  background-color: #f7f8f9;
+}
+img {
+  user-select: none;
+}
+.btn {
+  border-radius: 8px;
+}
+.badge {
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.py-6 {
+  padding-block: 4rem;
+}
+.rating {
+  background-color: #e5dada70;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid #e5dada;
+  line-height: 1;
+  gap: 6px;
+  user-select: none;
+}
+.rating .rating-star {
+  color: #e59500;
+  font-size: 1rem;
+}
+
+.custom-btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 4px 8px;
+  background-color: #d1d1d155;
+}
+.modal-btns {
+  display: flex;
+  gap: 8px;
+  border-radius: 8px;
+}
+.modal-btns > button {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  flex: 1;
+  color: white;
+  font-weight: bold;
+}
